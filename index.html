@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive blog website featuring articles, tutorials, and tips.">
+    <meta property="og:title" content="Awesome Blog">
+    <meta property="og:description" content="Explore insightful articles and tutorials on various topics.">
+    <meta property="og:image" content="link-to-image.jpg">
+    <meta property="og:url" content="https://yourgithubpage.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome Blog">
+    <meta name="twitter:description" content="Explore insightful articles and tutorials on various topics.">
+    <meta name="twitter:image" content="link-to-image.jpg">
+    <meta name="telegram:title" content="Awesome Blog">
+    <meta name="telegram:description" content="Explore insightful articles and tutorials on various topics.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Design website</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      </header>
+    <main>
+      <nav class="custom-header text-center">
+        <h1>Welcome to Our News</h1>
+        <p>Your one-stop destination for insightful articles and updates.</p>
+      </nav>
+    
+      <div class="container my-4">
+        <!-- Responsive Button Section -->
+        <section class="d-flex flex-wrap justify-content-center gap-3 py-4">
+          <button class="btn btn-secondary btn-custom" onclick="navigate('news.html')">All Updates</button>
+          <button class="btn btn-primary btn-custom" onclick="showInput('development')">Development</button>
+          <button class="btn btn-danger btn-custom" onclick="showInput('kdrama')">K-Drama</button>
+          <button class="btn btn-secondary btn-custom" onclick="showInput('movies')">Movies</button>
+          <button class="btn btn-danger btn-custom" onclick="showInput('technologies')">Technologies</button>
+        </section>
+      <section class="px-4 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">
+          WELCOME TO OUR NEWS
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+         
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+              Primary
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Secondary
+            </button>
+          </div>
+        </div>
+      </section>
+      
+      <section class="cards-contaniers">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card">
+              <img src="https://i.dailymail.co.uk/1s/2025/01/08/04/93854713-14260453-At_least_30_000_residents_are_now_under_mandatory_evacuation_ord-a-148_1736311035333.jpg" class="card-img-top" alt="LA">
+              <div class="card-body">
+                <h5 class="card-title">LA fire</h5>
+                <p class="card-text">A massive wildfire whipped up by extreme winds has swept through a Los Angeles hillside dotted with celebrity homes - with a state of emergency declared.
+
+                  The enormous blaze in the Pacific Palisades forced the evacuation of tens of thousands of people, some of whom abandoned their cars and fled on foot to safety with roads blocked.
+                  
+                  Firefighters battling the blaze, which is burning through about five football fields a minute, warned they were running out of water and supplies, as evacuation warnings spread to Malibu and</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://media.philstar.com/photos/2024/04/10/2_2024-04-10_22-12-29.jpg" class="card-img-top" alt="Kdrama">
+              <div class="card-body">
+                <h5 class="card-title">Best Drama</h5>
+                <p class="card-text">MANILA, Philippines — Korean drama "Queen of Tears" now holds the record of highest viewership rating of any drama in tvN history, surpassing "Crash Landing On You."
+
+                  According to Nielsen Korea, the final episode of the hit romance starring Kim Soo Hyun and Kim Ji Won set a new record after scoring an average nationwide rating of 24.580%."Crash Landing On You" finale back in February 2020 scored 21.683%.
+
+                  "Queen of Tears" also dominated Netflix Philippines as the number 1 TV show in the country. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://bernardmarr.com/wp-content/uploads/2022/04/The-10-Biggest-Technology-Trends-That-Will-Transform-The-Next-Decade.jpg" class="card-img-top" alt="TY">
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <p class="card-text">Technology today is evolving at a rapid pace, enabling faster change and progress, causing an acceleration of the rate of change. However, it is not only technology trends and emerging technologies that are evolving, a lot more has changed, making IT professionals realize that their role will not stay the same in the contactless world tomorrow. And an IT professional in 2025 will constantly be learning, unlearning, and relearning, out of necessityWhat does this mean for you? It means staying current with  </p>
+            
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://basicsofpsychology.com/wp-content/uploads/2024/07/Lev-Vygotsky-4.webp" class="card-img-top" alt="TY">
+            <div class="card-body">
+              <h5 class="card-title">Sociocultural</h5>
+              <p class="card-text">Lev Vygotsky was a highly influential psychologist in the twentieth century who contributed invaluable to psychology. His widely renowned theories on sociocultural psychology, cognitive development, and his Zone of Proximal Development (ZPD) have affected how humanity comprehends learning and growth.
+
+                This blog post will further outline his life and legacy while examining the main components of his cultural-historical theory. Additionally, it aims to analyze societal </p>
+          
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGcIlJTt2zs8OBdKgwFh6Vy-hZTo-ECoZSPg&s" class="card-img-top" alt="TY">
+          <div class="card-body">
+            <h5 class="card-title">Infrastructure</h5>
+            <p class="card-text">Infrastructure investments are an effective way to help jumpstart an economic recovery. These projects can put a lot of people to work relatively quickly, generate massive amounts of activity across multiple economic sectors, and there’s never a shortage of things that need building or repairing. management, and maintain overall efficiency. By implementing advanced software solutions for infrastructure maintenance, organizations can proactively identify issues, schedule maintenance tasks, and track progress in real-time.These software  </p>
+        
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.odishaage.com/wp-content/uploads/2021/11/d56d20b4-1072-48c0-b832-deecf6641d49.jpg" class="card-img-top" alt="TY">
+        <div class="card-body">
+          <h5 class="card-title">Development</h5>
+          <p class="card-text">Bhubaneswar: Development is the most widely used word in modern times. The economists say there is a difference between economic growth and development. The political leaders are mostly unaware of this difference. In reality when it comes the development they speak economic growth. Some people understand the development in a more narrow way as construction of infrastructure like roads, buildings, ports, electricity, and so on. The definition of development is broader than growth. Similarly, the</p>
+        </div>
+      </div>
+  </div>
+      </section>
+    
+    </main>
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top bg-secondary">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      fetch('header.html').then(res => res.text()).then(data => document.getElementById('header').innerHTML = data);
+      fetch('footer.html').then(res => res.text()).then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+</body>
+</html>
